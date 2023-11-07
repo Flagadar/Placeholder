@@ -1,0 +1,30 @@
+[
+  {
+    "arguments": [
+      "/usr/lib64/ccache/clang",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "src/glad.o",
+      "src/glad.c"
+    ],
+    "directory": "/home/rafael/Workspace/Dev/placeholder/libs/glad",
+    "file": "/home/rafael/Workspace/Dev/placeholder/libs/glad/src/glad.c",
+    "output": "/home/rafael/Workspace/Dev/placeholder/libs/glad/src/glad.o"
+  },
+  {
+    "arguments": [
+      "/usr/lib64/ccache/clang",
+      "-c",
+      "-Wall",
+      "-Ilibs/glfw/include",
+      "-Ilibs/glad/include",
+      "-o",
+      "src/main.o",
+      "src/main.c"
+    ],
+    "directory": "/home/rafael/Workspace/Dev/placeholder",
+    "file": "/home/rafael/Workspace/Dev/placeholder/src/main.c",
+    "output": "/home/rafael/Workspace/Dev/placeholder/src/main.o"
+  }
+]
